@@ -234,6 +234,7 @@ input {
                 background: url(../sprites/yamisprite.png) -10px -10px;
                 width: 37px;
                 height: 37px;
+                transform: translate(2px, 6px);
 }
 /* name */
             .name{background: white;
