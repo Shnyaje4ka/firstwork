@@ -63,9 +63,9 @@
                          position: absolute;
                          bottom: -40px;
                          left: 383px;
-                         width: 159px;
-                         height: 156px;
-                         background: url(../sprites/css_sprites.png) -13px -20px, white;
+                         width: 182px;
+                         height: 182px;
+                         background: url(../sprites/css_sprites.png) 0 4px, white;
                          border-radius: 50%;
                          z-index: 1;
 }
