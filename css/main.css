@@ -89,7 +89,7 @@
                       position: relative;
                       z-index: 3;
 }
-            .lang{  padding: 23px 0 0 4px;
+            .lang{  padding: 23px 0 0 3px;
                     margin: 0 0 0 0;
 }
             .lang li{display: inline-block;
