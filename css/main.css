@@ -322,6 +322,16 @@
 /* cookbook*/
             .whole_book{background: lightcyan;
                         width: 700px;
+                        position: relative;
+}
+            .whole_book:before{content: "";
+                               position: absolute;
+                               top: -112px;
+                               right: 203px;
+                               width: 44px; 
+                               height: 43px;
+                               background: url(../sprites/cookbook/donut.png);
+
 }
             
             .cookbook{background: lightcyan;
@@ -335,7 +345,7 @@
                color: black;
                text-transform: uppercase;
                font-weight: 900;
-               padding: 48px 0 0 23px;
+               padding: 51px 0 0 21px;
 
 }
             .patches{font-size: 0;
@@ -349,6 +359,8 @@
                      background: url(../sprites/cookbook/css_sprites.png)-10px -10px;
                      position: relative;
                      left: 60px;
+                     text-transform: uppercase;
+
 }
             .line{width: 39px;
                   height: 194px;
@@ -372,6 +384,7 @@
                    left: 166px;
                    top: 22px;
 }
+
             .private_label{width: 155px;
                            height: 42px;
                            background: url(../sprites/cookbook/css_sprites.png)-10px -275px;
@@ -394,13 +407,21 @@
                     text-decoration: none;
                     color: #ae865d;
 }
-            .patches a{font-family: 'medium';
-                       font-size: 20px;
+            .patches a{font-family: 'thin';
+                       font-size: 19px;
                        text-decoration: none;
                        position: relative;
                        color: white;
                        top: 15px;
                        left: 19px;
+}
+.active a{font-family: 'medium';
+    font-size: 17px;
+    text-decoration: none;
+    position: relative;
+    color: white;
+    top: 15px;
+    left: 19px;
 }
             .right_page{vertical-align: 88px;
 }
@@ -421,7 +442,7 @@
                 margin-bottom: 67px;
                 
 }
-            .right_page p{line-height: 27px;
+            .right_page p{line-height: 30px;
                           font-family: 'thin';
                           font-size: 20px;
 }
