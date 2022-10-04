@@ -89,7 +89,7 @@
                       position: relative;
                       z-index: 3;
 }
-            .lang{  padding: 23px 0 0 3px;
+            .lang{  padding: 23px 0 0 4px;
                     margin: 0 0 0 0;
 }
             .lang li{display: inline-block;
@@ -319,12 +319,164 @@
             
 
 
-/* products*/
-            .products{background: white;
-
-                height: 100px;
+/* cookbook*/
+            .whole_book{background: lightcyan;
+                        width: 700px;
+}
+            
+            .cookbook{background: lightcyan;
+}
+            .cookbook .wrapper{font-size: 0;
+}
+            .whole_book,.big_cake{display: inline-block;}
+            h1{text-align: center;
+               font-size: 40px;
+               font-family: 'flowregular';
+               color: black;
+               text-transform: uppercase;
+               font-weight: 900;
+               padding: 48px 0 0 23px;
 
 }
+            .patches{font-size: 0;
+                     padding: 44px 0 0 0;
+}
+            .patches li{display: inline-block;
+                        vertical-align: top;
+}
+            .mozaika{width: 181px;
+                     height: 245px;
+                     background: url(../sprites/cookbook/css_sprites.png)-10px -10px;
+                     position: relative;
+                     left: 60px;
+}
+            .line{width: 39px;
+                  height: 194px;
+                  background: url(../sprites/cookbook/css_sprites.png)-211px -10px;
+                  position: relative;
+                  left: 47px;
+                  top: -21px;
+                  z-index: 1;
+}
+            .homework{width: 147px;
+                      height: 49px;
+                      background: url(../sprites/cookbook/css_sprites.png)-270px -10px;
+                      position: relative;
+                      left: 27px;
+                      top: 9px;
+}
+            .line2{width: 66px;
+                   height: 64px;
+                   background: url(../sprites/cookbook/css_sprites.png)-270px -79px;
+                   position: relative;
+                   left: 166px;
+                   top: 22px;
+}
+            .private_label{width: 155px;
+                           height: 42px;
+                           background: url(../sprites/cookbook/css_sprites.png)-10px -275px;
+                           position: relative;
+                           right: 42px;
+                           top: 9px;
+}
+            .book{position: relative;
+                  z-index: 5;
+                  bottom: 198px;
+                  right: 65px;
+                  font-size: 0;
+                  width: 744px;
+                  height: 428px;
+                  background: url(../images/cookbook.png);
+}
+            .book a{font-size: 18px;
+                    font-family: 'medium';
+                    text-transform: uppercase;
+                    text-decoration: none;
+                    color: #ae865d;
+}
+            .patches a{font-family: 'medium';
+                       font-size: 20px;
+                       text-decoration: none;
+                       position: relative;
+                       color: white;
+                       top: 15px;
+                       left: 19px;
+}
+            .right_page{vertical-align: 88px;
+}
+            .left_page,.right_page{width: 240px;
+                                   display: inline-block;
+                                   text-align: center;
+}
+            .left_page{padding: 0 40px 0 127px;}
+
+            .left_page img{padding: 61px 0 30px 0;
+}
+            .left_page a:hover{color: #66baaf;}
+            h2{
+                font-size: 36px;
+                font-family: 'medium';
+                color: #caa977;
+                text-transform: uppercase;
+                margin-bottom: 67px;
+                
+}
+            .right_page p{line-height: 27px;
+                          font-family: 'thin';
+                          font-size: 20px;
+}
+            .right_page ul{font-size: 0;
+}
+            .right_page li{display: inline-block;
+                           vertical-align: -80px;
+}
+            .right_page a{font-size: 16px;
+                          font-family: 'medium';
+                          color: #caa977;
+                          text-decoration: none;
+}
+            .back a{padding: 10px 40px 0 0;}
+            .back{margin-left: -30px;
+                  padding: 0 18px 0 0;
+                  position: relative;
+}
+            .back a:before{content: "";
+                         width: 32px; 
+                         height: 31px;
+                         position: absolute;
+                         top: -8px;
+                         left: 42px;
+                         background: url(../sprites/cookbook/lines.png) -62px -61px;
+}
+            .right_page:after{content: "";
+                         position: absolute;
+                         width: 45px; 
+                         height: 8px;
+                         top: 120px;
+                         right: 193px;
+                         background: url(../sprites/cookbook/lines.png) -114px -10px;
+}
+            .back:hover a:before{ background-position: -62px -10px;
+}
+            
+            .forward{margin-right: -60px;
+                     position: relative;
+}
+            .forward a{padding: 10px 0 0 40px;}
+            .forward a:before{content: "";
+                            position: absolute;
+                            width: 32px; 
+                            height: 31px;
+                            top: -9px;
+                            right: 52px;
+                            background: url(../sprites/cookbook/lines.png) -10px -10px;
+}
+            .forward:hover a:before{ background-position: -10px -61px;
+}
+            .back:hover a,.forward:hover a{ color: #66baaf;}
+
+
+/* 
 /* plus */
             .plus{background: lightgoldenrodyellow;
 
@@ -344,4 +496,4 @@
 /* footer */
             .footer{background: lightgray;
 
-}
+} */
