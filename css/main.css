@@ -446,7 +446,7 @@
                          position: absolute;
                          top: -8px;
                          left: 42px;
-                         background: url(../sprites/cookbook/lines.png) -62px -61px;
+                         background: url(../sprites/cookbook/lines.png) -114px -135px;
 }
             .right_page:after{content: "";
                          position: absolute;
@@ -454,9 +454,9 @@
                          height: 8px;
                          top: 120px;
                          right: 193px;
-                         background: url(../sprites/cookbook/lines.png) -114px -10px;
+                         background: url(../sprites/cookbook/lines.png) -10px -186px;
 }
-            .back:hover a:before{ background-position: -62px -10px;
+            .back:hover a:before{ background-position: -10px -135px;
 }
             
             .forward{margin-right: -60px;
@@ -469,11 +469,50 @@
                             height: 31px;
                             top: -9px;
                             right: 52px;
-                            background: url(../sprites/cookbook/lines.png) -10px -10px;
+                            background: url(../sprites/cookbook/lines.png) -144px -62px;
 }
-            .forward:hover a:before{ background-position: -10px -61px;
+            .forward:hover a:before{ background-position: -62px -135px;
 }
-            .back:hover a,.forward:hover a{ color: #66baaf;}
+            .back:hover a,.forward:hover a{ color: #66baaf;
+}
+            .lineleft{background: url(../sprites/cookbook/lines.png)-166px -135px;
+}
+            .lineright{background: url(../sprites/cookbook/lines.png)-223px -10px;
+}
+            .big_cake a{padding: 9px;
+                vertical-align: 48px;
+}
+            .big_cake ul{padding: 45px 0 0 16px;}
+            .tiger{font-size: 24px;
+                font-family: 'medium';
+                color: #7ac3ba;
+}
+            .tm{color: #c2c2c2;
+                font-family: 'thin';
+                font-size: 20px;
+}
+            .tiger,.tm{text-align: center;
+}
+            .big_cake{position: relative;
+                      bottom: 166px;
+                      left: 17px;
+}
+            .big_cake:before{content: "";
+                             position: absolute;
+                             width: 114px; 
+                             height: 105px;
+                             top: -81px;
+                             left: 88px;
+                             background: url(../sprites/cookbook/lines.png)-10px -10px;
+}
+            .big_cake:after{content: "";
+                             position: absolute;
+                             width: 59px; 
+                             height: 32px;
+                             top: -110px;
+                             left: 161px;
+                             background: url(../sprites/cookbook/lines.png)-144px -10px;
+}
 
 
 /* 
