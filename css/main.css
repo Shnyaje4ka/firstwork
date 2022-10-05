@@ -320,7 +320,7 @@
 
 
 /* cookbook*/
-            .whole_book{background: lightcyan;
+            .whole_book{background: white;
                         width: 700px;
                         position: relative;
 }
@@ -331,18 +331,27 @@
                                width: 44px; 
                                height: 43px;
                                background: url(../sprites/cookbook/donut.png);
-
+                               z-index: 1;
 }
-            
-            .cookbook{background: lightcyan;
+            .whole_book:after{content: "";
+                              position: absolute;
+                              top: -96px;
+                              right: 184px;
+                              width: 85px;
+                              height: 10px;
+                              background: white;
+}
+
+            .cookbook{background: white;
 }
             .cookbook .wrapper{font-size: 0;
 }
-            .whole_book,.big_cake{display: inline-block;}
+            .whole_book,.big_cake{display: inline-block;
+}
             h1{text-align: center;
                font-size: 40px;
                font-family: 'flowregular';
-               color: black;
+               color: #65baaf;
                text-transform: uppercase;
                font-weight: 900;
                padding: 51px 0 0 21px;
@@ -415,13 +424,13 @@
                        top: 15px;
                        left: 19px;
 }
-.mozaika a{font-family: 'medium';
-    font-size: 17px;
-    text-decoration: none;
-    position: relative;
-    color: white;
-    top: 15px;
-    left: 19px;
+            .mozaika a{font-family: 'medium';
+                       font-size: 17px;
+                       text-decoration: none;
+                       position: relative;
+                       color: white;
+                       top: 15px;
+                       left: 19px;
 }
             .right_page{vertical-align: 88px;
 }
@@ -429,11 +438,13 @@
                                    display: inline-block;
                                    text-align: center;
 }
-            .left_page{padding: 0 40px 0 127px;}
+            .left_page{padding: 0 40px 0 127px;
+}
 
             .left_page img{padding: 61px 0 30px 0;
 }
-            .left_page a:hover{color: #66baaf;}
+            .left_page a:hover{color: #66baaf;
+}
             h2{
                 font-size: 36px;
                 font-family: 'medium';
@@ -456,7 +467,8 @@
                           color: #caa977;
                           text-decoration: none;
 }
-            .back a{padding: 10px 40px 0 0;}
+            .back a{padding: 10px 40px 0 0;
+}
             .back{margin-left: -30px;
                   padding: 0 18px 0 0;
                   position: relative;
@@ -483,7 +495,8 @@
             .forward{margin-right: -60px;
                      position: relative;
 }
-            .forward a{padding: 10px 0 0 40px;}
+            .forward a{padding: 10px 0 0 40px;
+}
             .forward a:before{content: "";
                             position: absolute;
                             width: 32px; 
@@ -503,7 +516,8 @@
             .big_cake a{padding: 9px;
                 vertical-align: 48px;
 }
-            .big_cake ul{padding: 45px 0 0 16px;}
+            .big_cake ul{padding: 45px 0 0 16px;
+}
             .tiger{font-size: 24px;
                 font-family: 'medium';
                 color: #7ac3ba;
@@ -536,15 +550,177 @@
 }
 
 
-/* 
-/* plus */
-            .plus{background: lightgoldenrodyellow;
 
+/* benefits */
+            .benefits{background: #e8f4f3;
+                      font-size: 0;
+                      
 }
+            .benefits .wrapper{position: relative;
+}
+            .benefits li{display: inline-block;
+                         text-align: center;
+                         font-family: 'thin';
+                         font-size: 20px;
+                         color: #a27a50;
+                         padding: 0 0 0 120px;
+                         max-width: 220px;
+}
+            .benefits ul{padding: 94px 0 56px 0;
+                         
+}
+            .benefits h1{padding: 64px 0 105px 12px;
+                         margin-top: -117px;
+                         background: #e8f4f3;
+}
+            .benefits li:first-child{padding: 0 0 0 32px;
+}
+            .chef,.list,.heart,.cube{position: relative;
+}
+            .chef:before{content: "";
+                        position: absolute;
+                        top: -122px;
+                        left: 68px;
+                        width: 56px; 
+                        height: 58px;
+                        background: url(../sprites/benefits/benefits.png) -238px -10px;
+                        z-index: 1;
+}
+            .chef:after{content: "";
+                         position: absolute;
+                         top: -152px;
+                         left: 38px;
+                         width: 118px; 
+                         height: 118px;
+                         background: url(../sprites/benefits/benefits.png) -10px -10px;
+}
+            .list:before{content: "";
+                         position: absolute;
+                         top: -120px;
+                         left: 155px;
+                         width: 70px; 
+                         height: 58px;
+                         background: url(../sprites/benefits/benefits.png) -148px -10px;
+                         z-index: 1;
+}
+            .list:after{content: "";
+                        position: absolute;
+                        top: -152px;
+                        left: 130px;
+                        width: 118px; 
+                        height: 118px;
+                        background: url(../sprites/benefits/benefits.png) -10px -10px;
+}
+            .heart:before{content: "";
+                         position: absolute;
+                         top: -116px;
+                         right: 72px;
+                         width: 56px; 
+                         height: 50px;
+                         background: url(../sprites/benefits/benefits.png) -238px -88px;
+                         z-index: 1;
+}
+            .heart:after{content: "";
+                        position: absolute;
+                        top: -152px;
+                        right: 43px;
+                        width: 118px; 
+                        height: 118px;
+                        background: url(../sprites/benefits/benefits.png) -10px -10px;
+}
+            .cube:before{content: "";
+                         position: absolute;
+                         top: -117px;
+                         left: 132px;
+                         width: 64px; 
+                         height: 53px;
+                         background: url(../sprites/benefits/benefits.png) -10px -148px;
+                         z-index: 1;
+}
+            .cube:after{content: "";
+                        position: absolute;
+                        top: -152px;
+                        left: 103px;
+                        width: 118px; 
+                        height: 118px;
+                        background: url(../sprites/benefits/benefits.png) -10px -10px;
+}
+            .benefits .wrapper:before{content: "";
+                                      position: absolute;
+                                      top: -31px;
+                                      left: 482px;
+                                      width: 44px; 
+                                      height: 47px;
+                                      background: url(../sprites/benefits/benefits.png) -94px -148px;
+                                      z-index: 1;
+}
+            .benefits .wrapper:after{content: "";
+                                     position: absolute;
+                                     top: -37px;
+                                     left: 47%;
+                                     width: 70px; 
+                                     height: 70px;
+                                     border-radius: 50%;
+                                     background: white;
+}
+    
+
 /* video */
             .video{background: white;
+}
+            .youtube{    width: 593px;
+                         height: 411px;
+                         background: url(../images/youtubeborder.png) no-repeat;
+                         padding: 0 0 113px 0;
+                         margin: 0 195px;
+                         position: relative;
+}
+            .youtube:before{content:'';
+                            position: absolute;
+                            top: -194px;
+                            left: 177px;
+                            width: 206px;
+                            height: 21px;
+                            background: url(../sprites/littlecup.png);
 
 }
+            .youtube:after{content:'';
+                            position: absolute;
+                            top: -487px;
+                            left: -677px;
+                            width: 655px;
+                            height: 844px;
+                            background: url(../sprites/forvideo.png) -10px -10px;
+                            opacity: ;
+}
+            .video .wrapper{position: relative;
+}
+            .video .wrapper:before{position: absolute;
+                                   content: "";
+                                   top: 326px;
+                                   right: -478px;
+                                   width: 265px;
+                                   height: 354px;
+                                   background: url(../sprites/forvideo.png) -685px -439px;
+}
+            .video .wrapper:after{position: absolute;
+                                   content: "";
+                                   top: 554px;
+                                   right: -477px;
+                                   width: 559px;
+                                   height: 409px;
+                                   background: url(../sprites/forvideo.png) -685px -10px;
+}
+            iframe{padding: 37px 0 0 50px;
+}
+            .video p{text-align:center;
+                     padding: 101px 0 41px 15px;
+                     font-family: 'thin';
+                     font-size: 24px;
+                     line-height: 32px;
+}
+
+
 /* news */
             .news{background: lightskyblue;
 
@@ -556,4 +732,4 @@
 /* footer */
             .footer{background: lightgray;
 
-} */
+} 
