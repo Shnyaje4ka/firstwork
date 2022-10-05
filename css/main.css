@@ -694,19 +694,21 @@
                             opacity: ;
 }
             .video .wrapper{position: relative;
+            
 }
-            .video .wrapper:before{position: absolute;
+            .equipment{position: relative;}
+            .equipment:before{position: absolute;
                                    content: "";
-                                   top: 326px;
-                                   right: -478px;
+                                   bottom: 167px;
+                                   right: -498px;
                                    width: 265px;
                                    height: 354px;
                                    background: url(../sprites/forvideo.png) -685px -439px;
 }
-            .video .wrapper:after{position: absolute;
+            .equipment:after{position: absolute;
                                    content: "";
-                                   top: 554px;
-                                   right: -477px;
+                                   bottom: -116px;
+                                   right: -499px;
                                    width: 559px;
                                    height: 409px;
                                    background: url(../sprites/forvideo.png) -685px -10px;
