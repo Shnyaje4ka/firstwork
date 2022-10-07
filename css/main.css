@@ -517,6 +517,15 @@
                 vertical-align: 48px;
 }
             .big_cake ul{padding: 45px 0 0 16px;
+                         position: relative;
+}
+            .big_cake ul:before{content: "";
+                                position: absolute;
+                                width: 137px;
+                                height: 23px;
+                                top: 0;
+                                right: 42px;
+                                background: url(../images/shadow.png);
 }
             .tiger{font-size: 24px;
                 font-family: 'medium';
@@ -696,8 +705,8 @@
             .video .wrapper{position: relative;
             
 }
-            .equipment{position: relative;}
-            .equipment:before{position: absolute;
+            .goods{position: relative;}
+            .goods:before{position: absolute;
                                    content: "";
                                    bottom: 167px;
                                    right: -498px;
@@ -705,7 +714,7 @@
                                    height: 354px;
                                    background: url(../sprites/forvideo.png) -685px -439px;
 }
-            .equipment:after{position: absolute;
+            .goods:after{position: absolute;
                                    content: "";
                                    bottom: -116px;
                                    right: -499px;
@@ -724,13 +733,85 @@
 
 
 /* news */
-            .news{background: lightskyblue;
-
+            .news{background: white;
+                  font-size: 0;
+                  border-top: 1px solid #cdcdcd;
 }
+            .news ul{padding-bottom: 60px;
+}
+            .news h1{padding: 60px 0 0 0;
+}
+            .news li{display: inline-block;
+                     padding: 80px 0 56px 0;
+}
+            .news .wrapper{position: relative;
+}
+            .news .wrapper:after{content: ""; 
+                                  position: absolute;
+                                  background: url(../sprites/redcandy.png);
+                                  top: -24px;
+                                  left: 479px;
+                                  width: 44px;
+                                  height: 49px;
+}
+            .news .wrapper:before{content: ""; 
+                                  position: absolute;
+                                  top: -7px;
+                                  right: 447px;
+                                  width: 74px;
+                                  height: 10px;
+                                  background: white;
+            }
+            .worldfood{width: 48%;
+}
+            .worldfood img{margin-left: -10px;}
+            .sweet_triumph{width: 52%;
+}
+            .sweet_triumph img{margin: 0 0 0 32px;}
+            .news a{font-size: 22px;
+                     color: #caa977;
+                     font-family: 'thin';
+                     text-transform: uppercase;
+                     text-decoration: none;
+                     font-weight: 800;
+                     letter-spacing: 0.04em;
+}
+            .news p{font-size: 18px;
+                    color: #7d7d7d;
+                    font-family: 'thin';
+                    text-decoration: none;
+                    line-height: 22px;
+                    padding: 22px 0 0 0;
+                    margin: 0 -30px 0 0;
+}
+            .news img{float:left;
+                      padding: 0 20px 0 0;
+                      
+}
+            .news img:after{content: "";
+                            clear: both;
+                            display: block;
+}
+            .allnews{position: relative;
+                top: -73px;
+                left: 42%;
+                     
+}
+            .allnews a{text-align: center;
+                       font-size: 16px;
+                       color: #b1b1b1;
+                       font-family: 'thin';
+                       text-transform: uppercase;
+                       text-decoration: none;
+                       padding: 8px 25px;
+                       border: 2px solid #b1b1b1;
+                       border-radius: 33px;
+
+}       
 /* map */
             .map{background: white;
-
 }
+
 /* footer */
             .footer{background: lightgray;
 
