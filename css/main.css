@@ -59,7 +59,7 @@
                         width: 79px;
                         height: 56px;
                         background: url(../sprites/ukraineflag.png);
-                        z-index: 2;
+                        z-index: 20;
 }
 
 /* header */
@@ -968,7 +968,7 @@
                           color: #67bbaf;
                           padding: 22px 0 20px 0;
 }
-            .send_email input[type="text"]{width: 245px;
+            .send_email input[type="email"]{width: 245px;
                                            height: 20px;
                                            border-bottom: 2px solid #b1b1b1;
                                            border-top: transparent;
