@@ -892,28 +892,31 @@
                                                text-transform: uppercase;
                                         
 }
-            .information input[type="submit"]:hover{border: 1px solid black;}
+            .information input[type="submit"]:hover{background: white;
+                                                    color: #67bbaf;
+}
       
             
             
-/* footer */
-            .footer{background: lightgray;
+/* about_us */
+            .about_us{background: white;
 }
-            .sitefooter a,.contact_info a{text-decoration: none;
+            .about_us .wrapper{position: relative;}
+            .site_about a,.contact_info a{text-decoration: none;
                         color: #7d7d7d;
             }
-            .sitefooter li{font-size: 20px;
+            .site_about li{font-size: 20px;
                            font-family: 'thin';
                            line-height: 34px;
                            
 
 }
-            .sitefooter{column-count: 2;
+            .site_about{column-count: 2;
                         padding-top: 53px;
                         margin-left: -15px;
                         width: 310px;
 }
-            .sitefooter,.contact_info,.send_email{display: table-cell;
+            .site_about,.contact_info{display: table-cell;
 }
             .send_email input[type="submit"]{font-family: 'medium';
                                               font-size: 16px;
@@ -923,11 +926,11 @@
                                               color: #b1b1b1;
                                               border-radius: 20px;
                                               border: 2px solid #b1b1b1;
-                                              margin: 0 0 0 0;
+                                              margin-top: 31px;
                                               text-transform: uppercase;
 
 }
-            .contact_info{padding: 0 0 0 68px;
+            .contact_info{padding: 0 0 0 67px;
 }
             .contact_info li{font-size: 20px;
                              font-family: 'thin';
@@ -939,4 +942,120 @@
                             font-size: 22px;
                             line-height: 34px;
 }
-            .contact_info li :nth-child(2){padding: 0 0 0 0;}
+            .send_email{width: 300px;
+                        height: 189px;
+                        text-align: center;
+                        border: 10px solid transparent;
+                        border-image: repeating-linear-gradient(-122deg, #e63b2d, #e63b2d 6px, white 6px, white 12px, #63bab0 12px, #63bab0 18px,white 18px, white 24px);
+                        border-image-slice: 7;
+                        position: absolute;
+                        top: 48px;
+                        right: -8px;
+}
+                        
+            .send_email p{font-family: 'medium';
+                          font-size: 20px;
+                          line-height: 34px;
+                          text-transform: uppercase;
+                          color: #67bbaf;
+                          padding: 22px 0 20px 0;
+}
+            .send_email input[type="text"]{width: 245px;
+                                           height: 20px;
+                                           border-bottom: 2px solid #b1b1b1;
+                                           border-top: transparent;
+                                           border-left: transparent;
+                                           border-right: transparent;
+                                           background: white;
+                                           color: #b1b1b1;
+                                           font-family: 'thin';
+                                           text-align: center;
+                                           font-size: 20px;
+                                           line-height: 30px;
+                                           outline: none;
+}
+/* footer */
+            footer .wrapper{display: flex;
+                            justify-content: space-between;
+}
+            footer .wrapper ul{padding-top: 15px;
+                               margin-left: -9px;
+                               font-family: 'thin';
+                               font-size: 16px;
+                               line-height: 24px;
+}
+            
+            .social    {font-size: 0;
+}
+            .social li{display: inline-block;
+                        font-size: 16px;
+}
+            .vk,.f{position: relative;
+                     width: 50px;
+                     height: 50px;
+}
+            .vk a:before{content: '';
+                       position: absolute;
+                       top: -3px;
+                       right: -18px;
+                       width: 50px;
+                       height: 50px;
+                       background: url(../sprites/footer/footer.png)-10px -10px;
+
+}            .vk a:after{content: '';
+                       position: absolute;
+                       top: 14px;
+                       right: -3px;
+                       width: 24px;
+                       height: 14px;
+                       background: url(../sprites/footer/footer.png)-63px -78px;
+
+}
+            .f a:before{content: '';
+                       position: absolute;
+                       top: -4px;
+                       right: -25px;
+                       width: 50px;
+                       height: 50px;
+                       background: url(../sprites/footer/footer.png)-10px -10px;
+
+}
+
+            .f a:after{content: '';
+                      position: absolute;
+                      top: 9px;
+                      right: -6px;
+                      width: 12px;
+                      height: 22px;
+                      background: url(../sprites/footer/footer.png)-10px -112px;
+
+}
+            .address,.tel,.email{position: relative;
+}
+            .address:before{content: '';
+                            position: absolute;
+                            width: 19px;
+                            height: 32px;
+                            top: 13px;
+                            left: -38px;
+                            background: url(../sprites/footer/footer.png) -122px -10px;
+                            
+}
+            .tel:before{content: '';
+                            position: absolute;
+                            width: 23px;
+                            height: 32px;
+                            top: 8px;
+                            left: -36px;
+                            background: url(../sprites/footer/footer.png) -79px -10px;
+    
+}
+            .email:before{content: '';
+                        position: absolute;
+                        width: 33px;
+                        height: 14px;
+                        top: 11px;
+                        left: -48px;
+                        background: url(../sprites/footer/footer.png) -10px -78px;
+
+}
