@@ -49,10 +49,18 @@
             .wrapper{width: 940px;
                      margin: 0 auto;
                      padding: 0 20px;
-
-        
 }
-
+            body{position: relative;
+}
+            body:before{content:"";
+                        position: fixed;
+                        top: 38%;
+                        left: 0;
+                        width: 79px;
+                        height: 56px;
+                        background: url(../sprites/ukraineflag.png);
+                        z-index: 2;
+}
 
 /* header */
             .header .wrapper{padding: 0 20px;
