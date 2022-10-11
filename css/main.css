@@ -1074,3 +1074,7 @@
                                             margin: 0 auto;}
     
 }
+@media screen and (min-width: 800px) {body{width: 100%;
+    margin: 0 auto;}
+
+}
