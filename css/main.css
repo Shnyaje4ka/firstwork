@@ -898,11 +898,14 @@
                                                border-radius: 20px;
                                                margin: 44px 100px 36px 78px;
                                                text-transform: uppercase;
+                                               transition: color 2s ease;
+
                                         
 }
             .information input[type="submit"]:hover{background: white;
                                                     color: #67bbaf;
 }
+            
       
             
             
